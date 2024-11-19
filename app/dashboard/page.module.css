@@ -1,0 +1,71 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    margin: 0px 0px;
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.card p {
+    margin: 0.7rem 0;
+    text-align: left;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.loadingContainer {
+    justify-content: center;
+    align-items: center;
+    height: 80 vh;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    height: 30vh;
+}

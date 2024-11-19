@@ -1,0 +1,53 @@
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+    margin: 0px 0px;
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.subheading {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.uploadSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.fileInput {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.statusMessage {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
