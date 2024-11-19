@@ -19,10 +19,9 @@ export default function Dashboard() {
 
     useEffect(() => {
         !localStorage.getItem("isLoggedIn") && router.push("/");
+        localStorage.username = "Bob";
+        localStorage.password = "pass123";
     }, [router]);
-
-    localStorage.username = "Bob";
-    localStorage.password = "pass123";
 
     const fetchData = async (updatedFilters) => {
         setLoading(true);
